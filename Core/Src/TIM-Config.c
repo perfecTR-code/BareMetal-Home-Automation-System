@@ -18,7 +18,7 @@ void Servo_Motor_Setter(Servo_Motor *Servo, uint32_t Angle, uint32_t Holding_Tim
 		char arr[] = "Invalid Angle or Holding Time";
 		I2C_Main_Function(arr, strlen(arr));
 		return;
-	}
+	} // .
 }
 
 uint32_t Convert_Angle_To_CCR(uint32_t angle) {
