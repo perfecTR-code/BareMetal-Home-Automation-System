@@ -1,0 +1,15 @@
+../Core/Src/I2C.c:4:6:Delay_ms	24	static,ignoring_inline_asm
+../Core/Src/I2C.c:11:9:Data_Divider_High	16	static
+../Core/Src/I2C.c:15:9:Data_Divider_Low	16	static
+../Core/Src/I2C.c:20:9:Prepare_LCD_Packet	24	static
+../Core/Src/I2C.c:29:6:LCD_Send_High_2_Nibble	16	static
+../Core/Src/I2C.c:34:6:LCD_Send_Low_2_Nibble	24	static
+../Core/Src/I2C.c:40:6:LCD_Send_Command	24	static
+../Core/Src/I2C.c:56:6:LCD_Init	8	static
+../Core/Src/I2C.c:83:6:I2C1_Start	4	static
+../Core/Src/I2C.c:88:6:I2C1_WriteAddress	24	static
+../Core/Src/I2C.c:98:6:I2C1_WriteData	16	static
+../Core/Src/I2C.c:103:6:I2C1_Stop	4	static
+../Core/Src/I2C.c:108:6:General	16	static
+../Core/Src/I2C.c:118:6:I2C_Main_Function	24	static
+../Core/Src/I2C.c:126:6:System_Init	4	static
