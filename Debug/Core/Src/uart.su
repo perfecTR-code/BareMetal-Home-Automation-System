@@ -1,7 +1,0 @@
-../Core/Src/uart.c:15:6:Uart_Receiver	24	static
-../Core/Src/uart.c:44:6:initClocks	4	static
-../Core/Src/uart.c:51:6:configUart1Pins	4	static
-../Core/Src/uart.c:69:6:configUart1	4	static
-../Core/Src/uart.c:88:6:initUART	8	static
-../Core/Src/uart.c:94:6:transmitUart	16	static
-../Core/Src/uart.c:101:6:transmitStrUart	16	static

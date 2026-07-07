@@ -60,8 +60,8 @@ all: main-build
 main-build: Bare-Metal_Home_Automation.elf secondary-outputs
 
 # Tool invocations
-Bare-Metal_Home_Automation.elf Bare-Metal_Home_Automation.map: $(OBJS) $(USER_OBJS) C:\Users\perfecTR\STM32CubeIDE\workspace_1.14.0\UART\ Driver\ v1\STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Bare-Metal_Home_Automation.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\perfecTR\STM32CubeIDE\workspace_1.14.0\UART Driver v1\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Bare-Metal_Home_Automation.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Bare-Metal_Home_Automation.elf Bare-Metal_Home_Automation.map: $(OBJS) $(USER_OBJS) C:\Users\perfecTR\STM32CubeIDE\workspace_1.14.0\Bare-Metal_Home_Automation\STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Bare-Metal_Home_Automation.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\perfecTR\STM32CubeIDE\workspace_1.14.0\Bare-Metal_Home_Automation\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Bare-Metal_Home_Automation.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

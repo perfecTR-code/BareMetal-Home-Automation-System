@@ -50,6 +50,7 @@ void initClocks(void) {
 
 void configUart1Pins(void) {
     // "u" means unsigned.(MISRA C rules)
+	// Connect the corresponding pins to exact communication unit.
     GPIOA->MODER &= ~((3u << (9 * 2)) | (3u << (10 * 2)));
     GPIOA->MODER |=  ((2u << (9 * 2)) | (2u << (10 * 2)));
 
