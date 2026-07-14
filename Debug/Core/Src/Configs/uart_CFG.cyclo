@@ -1,0 +1,3 @@
+../Core/Src/Configs/uart_CFG.c:3:6:initClocks	1
+../Core/Src/Configs/uart_CFG.c:10:6:configUart1Pins	1
+../Core/Src/Configs/uart_CFG.c:29:6:configUart1	1

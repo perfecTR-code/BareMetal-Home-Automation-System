@@ -1,0 +1,3 @@
+../Core/Src/Configs/SPI_CFG.c:4:6:SPI_Clock_Init	4	static
+../Core/Src/Configs/SPI_CFG.c:14:6:SPI_Motor_Config	4	static
+../Core/Src/Configs/SPI_CFG.c:26:6:SPI_Pin_Config	4	static

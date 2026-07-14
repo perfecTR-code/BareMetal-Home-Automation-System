@@ -1,0 +1,15 @@
+../Core/Src/Drivers/I2C.c:4:6:Delay_ms	24	static,ignoring_inline_asm
+../Core/Src/Drivers/I2C.c:13:9:Data_Divider_High	16	static
+../Core/Src/Drivers/I2C.c:17:9:Data_Divider_Low	16	static
+../Core/Src/Drivers/I2C.c:25:9:Prepare_LCD_Packet	24	static
+../Core/Src/Drivers/I2C.c:40:6:LCD_Send_High_2_Nibble	16	static
+../Core/Src/Drivers/I2C.c:46:6:LCD_Send_Low_2_Nibble	24	static
+../Core/Src/Drivers/I2C.c:56:6:LCD_Send_Command	24	static
+../Core/Src/Drivers/I2C.c:78:6:LCD_Init	8	static
+../Core/Src/Drivers/I2C.c:110:6:I2C1_Start	4	static
+../Core/Src/Drivers/I2C.c:115:6:I2C1_WriteAddress	24	static
+../Core/Src/Drivers/I2C.c:126:6:I2C1_WriteData	16	static
+../Core/Src/Drivers/I2C.c:131:6:I2C1_Stop	4	static
+../Core/Src/Drivers/I2C.c:138:6:General	16	static
+../Core/Src/Drivers/I2C.c:153:6:I2C_Main_Function	24	static
+../Core/Src/Drivers/I2C.c:163:6:System_Init	8	static

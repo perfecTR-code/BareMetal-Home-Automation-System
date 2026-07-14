@@ -1,0 +1,11 @@
+../Core/Src/nRF24.c:5:6:nRF24_Write_Register	1
+../Core/Src/nRF24.c:13:9:nRF24_Read_Register	1
+../Core/Src/nRF24.c:22:9:nRF24_Read_Status	1
+../Core/Src/nRF24.c:30:6:nRF24_Clear_Flags	1
+../Core/Src/nRF24.c:36:6:nRF24_Set_Mode_TX	1
+../Core/Src/nRF24.c:42:6:nRF24_Set_Mode_RX	1
+../Core/Src/nRF24.c:48:6:nRF24_Transmit	2
+../Core/Src/nRF24.c:63:6:nRF24_Set_TX_Address	2
+../Core/Src/nRF24.c:73:6:nRF24_Set_RX_Address	2
+../Core/Src/nRF24.c:83:6:nRF24_Init	1
+../Core/Src/nRF24.c:98:6:nRF24_Send_Packet	4

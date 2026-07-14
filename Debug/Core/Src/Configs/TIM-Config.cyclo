@@ -1,0 +1,5 @@
+../Core/Src/Configs/TIM-Config.c:10:6:Servo_Motor_Setter	4
+../Core/Src/Configs/TIM-Config.c:31:10:Convert_Angle_To_CCR	2
+../Core/Src/Configs/TIM-Config.c:39:6:Execute_Servo_Motor	1
+../Core/Src/Configs/TIM-Config.c:51:6:TIM1_Settings	1
+../Core/Src/Configs/TIM-Config.c:86:6:Pin_Configs	1

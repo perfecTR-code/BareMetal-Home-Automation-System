@@ -1,0 +1,3 @@
+../Core/Src/Drivers/SPI.c:3:6:Delay_us	2
+../Core/Src/Drivers/SPI.c:11:6:SPI_Send_Data	3
+../Core/Src/Drivers/SPI.c:19:9:SPI_Receive_Data	2

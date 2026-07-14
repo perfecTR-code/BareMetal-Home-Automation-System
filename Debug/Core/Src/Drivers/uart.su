@@ -1,0 +1,4 @@
+../Core/Src/Drivers/uart.c:8:6:Uart_Receiver	24	static
+../Core/Src/Drivers/uart.c:37:6:initUART	8	static
+../Core/Src/Drivers/uart.c:43:6:transmitUart	16	static
+../Core/Src/Drivers/uart.c:50:6:transmitStrUart	16	static

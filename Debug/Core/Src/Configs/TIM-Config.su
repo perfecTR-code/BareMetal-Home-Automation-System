@@ -1,0 +1,5 @@
+../Core/Src/Configs/TIM-Config.c:10:6:Servo_Motor_Setter	64	static
+../Core/Src/Configs/TIM-Config.c:31:10:Convert_Angle_To_CCR	16	static
+../Core/Src/Configs/TIM-Config.c:39:6:Execute_Servo_Motor	16	static
+../Core/Src/Configs/TIM-Config.c:51:6:TIM1_Settings	4	static
+../Core/Src/Configs/TIM-Config.c:86:6:Pin_Configs	4	static
